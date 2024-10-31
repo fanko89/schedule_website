@@ -1,0 +1,39 @@
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensures the content takes up the full viewport height */
+    flex-direction: column;
+  }
+  
+  /* Centered header div */
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #696e7e; 
+    padding-bottom: 3px;
+    position: relative; 
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #cfcfcf;
+    
+  }
+  
+ 
+  h1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -7.6px; 
+    height: 3px;
+    background: rgba(0, 0, 0, 0.15); 
+    border-radius: 2px; 
+    filter: blur(4px); 
+  }
