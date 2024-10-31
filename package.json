@@ -1,5 +1,6 @@
 {
   "name": "schedule_website",
+  "homepage": "https://schedule.atyourservicepro.com", 
   "version": "0.1.0",
   "private": true,
   "dependencies": {
